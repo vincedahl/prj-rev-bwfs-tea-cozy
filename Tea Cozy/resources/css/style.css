@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
+}
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+div {
+  display: block;
+}
+header {
+  background-color: black;
+  z-index: 1;
+  margin: 0;
+  text-align: right;
+}
+
+.solid-header {
+  margin: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+header img {
+  z-index: 1;
+  width: auto;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 800px;
+}
+.solid-header a:link {
+  z-index: 1;
+  color: seashell;
+  padding: 10px;
+  min-width: 100px;
+}
+.solid-header a:visited {
+  color: seashell;
+}
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+.mission-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  display: inline-flex;
+  height: 700px;
+  width: 100%;
+}
+
+.mission {
+  margin: auto;
+  width: 100%;
+  display: block;
+  background-color: black;
+  text-align: center;
+}
+
+.menu {
+  height: 700px;
+  width: 1000px;
+  display: block;
+  padding-top: 70px;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+}
+.tea-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.type {
+  padding: 5px;
+}
+
+.type img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.type span {
+  display:  block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+.location-box {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  padding-top: 70px;
+  text-align: center;
+}
+.location-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: auto;
+}
+.address {
+  opacity: 1;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+.footer {
+  height: 200px;
+  display: block;
+  text-align: center;
+}
+.tag {
+  margin: 0;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
+}
